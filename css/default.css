@@ -1,0 +1,102 @@
+/* CSS for Sample Page*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #2d2b2e;
+	
+	}
+
+
+body {
+	
+	
+}
+
+h1{
+	color: #c5b12e;
+	font-family: 'Indie Flower', cursive;
+	}
+
+header{
+
+	}
+
+main{
+	
+	}	
+main img{
+	width:40%;
+	max-width:1000px;
+	min-width:180px;
+}
+body main nav ul{
+	list-style:none;
+	padding:10px;
+	
+}
+ul li{
+	border: solid 2px green;
+	background-color:#c5b12e;
+	padding: 1em;
+	margin: 5px;
+}
+p{
+	font-size:1.25em;
+	background-color:#376fa4;
+}
+footer{
+}
+
+.rowflex{
+	flex: 0 0 auto;
+;
+}
+.col-9{
+	display:flex;
+	width:75%;
+	flex: 0 0 auto;
+	
+}
+.col-12{
+	display:flex;
+	width:auto;
+	flex: 0 0 auto;
+	
+}
+/* class selector */
+@media only screen and (max-width:899px){
+body {
+font-size:95%;
+}
+}
+@media only screen and (max-width:767px){
+body{
+font-size:75%;
+}
+header img{
+	width:20%;
+	display:block;
+	margin:auto;
+	float:none;
+	
+}
+header h1{
+	float:none;
+	width:100%;
+}
+main p{
+	float:none;
+	width:100%;
+	
+}
+}
+@media only screen and (max-width:479px){
+body{
+font-size:75%;
+}
+}
